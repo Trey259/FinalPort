@@ -37,7 +37,12 @@
   justify-content: center;
   align-items: center;
 }
-
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#DC143C, #923993);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

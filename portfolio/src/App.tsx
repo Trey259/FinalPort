@@ -21,7 +21,6 @@ import {
     HoverCardTrigger,
 } from "@/components/ui/hover-card"
 import { Textarea } from "@/components/ui/textarea"
-
 function App() {
 
     return (
@@ -87,13 +86,7 @@ function App() {
                 initial={{opacity: 0, y: -50, fontSize: '1rem'}} // Increase font size
                 animate={{opacity: 1, y: 0, fontSize: '1rem'}} // Larger font size on animation
                 transition={{duration: 1}}> At Trapped Service, we pride ourselves on providing a personalized
-                experience for our valued customers. As part of our commitment to customer satisfaction, we extend the
-                opportunity for individuals to request custom items tailored to their unique preferences. Whether it's a
-                special design, a personalized message, or a specific product feature, we're here to bring your vision
-                to life. Our prompt service ensures that your requests are handled promptly and efficiently, with
-                attention to detail and quality craftsmanship. With a wide range of options available, you can unleash
-                your creativity and create something truly one-of-a-kind. Join us at Trapped Service and discover the
-                joy of custom creations made just for you.
+                experience for our valued customers.
             </motion.div>
             <motion.h1
                 className="landing-heading"
@@ -101,7 +94,6 @@ function App() {
                 animate={{opacity: 1, y: 0, fontSize: '5rem'}} // Larger font size on animation
                 transition={{duration: 1}}
             >
-                Prompting
             </motion.h1>
             <motion.div
                 className="landing-heading"
